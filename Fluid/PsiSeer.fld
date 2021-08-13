@@ -1,0 +1,84 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0107 
+header_name {.h} 
+code_name {.cxx}
+Function {make_window()} {open
+} {
+  Fl_Window {} {
+    label {PsiSeer 0.7.0.1}
+    user_data this
+    callback callback open selected
+    xywh {244 157 580 315} type Double box BORDER_BOX color 0 selection_color 28 align 80 hide
+  } {
+    Fl_Box {} {
+      image {../../../../Desktop/PsiSeerPCBack.png} xywh {0 0 540 315} box PLASTIC_UP_FRAME
+    }
+    Fl_Group {} {
+      label {Trial Stats} open
+      xywh {24 23 180 260} box PLASTIC_UP_FRAME labelfont 1 align 5
+    } {
+      Fl_Output {} {
+        label Total
+        xywh {90 53 70 24}
+      }
+      Fl_Output {} {
+        label {z(HR)}
+        xywh {90 91 70 24}
+      }
+      Fl_Output {} {
+        label {Hit Rate}
+        xywh {90 130 70 24}
+      }
+      Fl_Output {} {
+        label {p(HR)}
+        xywh {90 168 70 24}
+      }
+    }
+    Fl_Box {} {
+      label 1
+      xywh {256 39 70 75} box RSHADOW_BOX color 88 labeltype SHADOW_LABEL labelfont 1 labelsize 64
+    }
+    Fl_Box {} {
+      label X
+      xywh {361 40 70 75} box RSHADOW_BOX color 71 labeltype SHADOW_LABEL labelfont 1 labelsize 64
+    }
+    Fl_Box {} {
+      label {Psi Bit}
+      xywh {258 18 65 22} labelfont 1
+    }
+    Fl_Box {} {
+      label {Future Bit}
+      xywh {358 19 77 22} labelfont 1
+    }
+    Fl_Button {} {
+      label {Reset Stats}
+      xywh {60 230 100 25} box PLASTIC_UP_BOX
+    }
+    Fl_Box {} {
+      xywh {230 129 235 108} box SHADOW_FRAME
+    }
+    Fl_Box {} {
+      label {© 2006 Psigenics Corporation}
+      xywh {245 206 200 19}
+    }
+    Fl_Box {} {
+      label {Objective:  Match the Psi Bit to the Future Bit. Future Bit is generated after the Psi Bit is received. }
+      xywh {231 132 226 70} align 148
+    }
+    Fl_Round_Button {} {
+      xywh {439 257 20 20} down_box ROUND_DOWN_BOX
+    }
+    Fl_Value_Slider {} {
+      label {slider:}
+      xywh {500 19 50 270} type {Vert Fill} box PLASTIC_DOWN_FRAME selection_color 224 labeltype NO_LABEL labelcolor 216 textfont 1 textsize 18 textcolor 216
+    }
+    Fl_Box {} {
+      label {20.0}
+      xywh {491 265 70 24} box ROUND_UP_BOX color 176 selection_color 1 labelfont 1 labelsize 19 labelcolor 55
+    }
+    Fl_Light_Button {} {
+      label Invert
+      xywh {25 25 60 20} color 7 selection_color 88
+    }
+  }
+} 
