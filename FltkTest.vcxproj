@@ -225,6 +225,11 @@
   <ItemGroup>
     <ResourceCompile Include="PsiSeerWinRc.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Libraries\PrdCore\PrdCore\PrdCore.vcxproj">
+      <Project>{3911e944-5ef6-4955-b177-f9fb2e1694da}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
