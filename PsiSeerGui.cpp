@@ -530,7 +530,7 @@ void PsiSeerGui::Command(Fl_Widget* widget, void* object)
                     return;
                 }
 
-                fl_kill_thread(obj->animationThread_);
+                //fl_kill_thread(obj->animationThread_); // soliax: cant find this function
                 fl_create_thread(obj->animationThread_, &PsiSeerGui::AnimationThread, obj);
             }
             prevAniThreadRunValidator = obj->aniThreadRunValidator_;
