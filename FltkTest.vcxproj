@@ -124,7 +124,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>shfolder.lib;fltk.lib;Shell32.lib;opengl32.lib;wsock32.lib;comctl32.lib;winmm.lib;fltkimages.lib;fltkjpeg.lib;fltkpng.lib;fltkzlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>.\Release/METrainerPC.exe</OutputFile>
+      <OutputFile>.\Release/METrainer.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>.\Libraries\fltk-1.3.7\lib\Windows\rel\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ProgramDatabaseFile>.\Release/FltkTest.pdb</ProgramDatabaseFile>
