@@ -82,7 +82,7 @@
       <AdditionalDependencies>SHFolder.lib;opengl32.lib;wsock32.lib;comctl32.lib;winmm.lib;fltkimagesd.lib;fltkjpegd.lib;fltkpngd.lib;fltkzlibd.lib;fltkd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>.\Debug/METrainer.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\FLTK\fltk-1.3.7\Windows\deb\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>.\Libraries\fltk-1.3.7\lib\Windows\deb\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libcmt;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\Debug/FltkTest.pdb</ProgramDatabaseFile>
@@ -126,7 +126,7 @@
       <AdditionalDependencies>shfolder.lib;fltk.lib;Shell32.lib;opengl32.lib;wsock32.lib;comctl32.lib;winmm.lib;fltkimages.lib;fltkjpeg.lib;fltkpng.lib;fltkzlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>.\Release/METrainerPC.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\FLTK\fltk-1.3.7\Windows\rel\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>.\Libraries\fltk-1.3.7\lib\Windows\rel\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ProgramDatabaseFile>.\Release/FltkTest.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
