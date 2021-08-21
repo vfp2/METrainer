@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>PsiTrainer</ProjectName>
+    <ProjectName>METrainer</ProjectName>
     <ProjectGuid>{34FBC14D-DB31-4542-9B36-9FCD029B40CB}</ProjectGuid>
     <RootNamespace>PsiTrainer PC</RootNamespace>
   </PropertyGroup>
